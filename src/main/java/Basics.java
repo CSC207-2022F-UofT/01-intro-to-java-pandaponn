@@ -100,7 +100,7 @@ public class Basics {
          * Current count: 0
          */
         for (int i=10; i>=0; i--) {
-            System.out.println(i);
+            System.out.println("Current count: " + i);
         }
 
     }
@@ -149,7 +149,7 @@ public class Basics {
         for (String s : str_list) {
             ret.append(s.charAt(0));
         }
-        
+
         return ret.toString();
     }
 
