@@ -99,7 +99,7 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i=0; i<11; i++) {
+        for (int i=10; i>=0; i--) {
             System.out.println(i);
         }
 
@@ -149,7 +149,7 @@ public class Basics {
         for (String s : str_list) {
             ret.append(s.charAt(0));
         }
-
+        
         return ret.toString();
     }
 
@@ -184,7 +184,7 @@ public class Basics {
         for (int i = 1; i<arr.length; i+=2) {
             current_sum += arr[i];
         }
-
+        
         return current_sum;
     }
 
